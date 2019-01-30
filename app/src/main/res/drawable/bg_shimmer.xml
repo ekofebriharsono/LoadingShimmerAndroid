@@ -1,0 +1,17 @@
+
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid
+        android:color="#e2dede" />
+
+    <!--
+    ~ For some idiotic reason Android switches left and right until API 12+. Baffling.
+    -->
+    <corners
+        android:bottomLeftRadius="50dp"
+        android:topLeftRadius="50dp"
+        android:topRightRadius="50dp"
+        android:bottomRightRadius="50dp" />
+
+</shape>
